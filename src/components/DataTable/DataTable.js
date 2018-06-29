@@ -13,7 +13,7 @@ import StarBorder from '@material-ui/icons/StarBorder'
 
 export default class DataTable extends React.Component {
   static propTypes = {
-    olympicsDataSaga: PropTypes.object
+    mockDataSaga: PropTypes.object
   }
 
   createTable(data) {
@@ -36,12 +36,12 @@ export default class DataTable extends React.Component {
   }
 
   render() {
-    const { data } = this.props.olympicsDataSaga
+    const { data } = this.props.mockDataSaga
     console.log(data)
 
     return (
       <div className="table">
-        <div className="title">Olympic Medals Table</div>
+        <div className="title">Data Table</div>
         <List className="list">
           {this.createTable(data)}
         </List>
