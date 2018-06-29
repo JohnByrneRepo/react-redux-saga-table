@@ -1,0 +1,32 @@
+body {
+  margin: 30px;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.table {
+  padding: 10px;
+  width: 33%;
+  margin: 0 auto;
+}
+
+.title {
+  position: absolute;
+  padding-left: 80px; 
+}
+
+.list {
+  position: relative;
+  top: 40px;
+}
+
+.col {
+  width: 33%;
+}
+
+.button {
+  background-color: #ddd !important;
+  right: 72px;
+  top: 57px;
+}
